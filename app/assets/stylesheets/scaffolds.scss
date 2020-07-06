@@ -1,0 +1,310 @@
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000; }
+
+a:visited {
+  color: #666; }
+
+a:hover {
+  color: #fff;
+  background-color: #000; }
+
+th {
+  padding-bottom: 5px; }
+
+td {
+  padding: 0 5px 7px; }
+
+div.field,
+div.actions {
+  margin-bottom: 10px; }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff; }
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square; }
+
+label {
+  display: block; }
+/*Whubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,
+Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross 
+browser supported, best quality world class designs.*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50px);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 10em;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 5px 10px rgba(0,0,0,1);
+  mix-blend-mode: overlay;
+  font-family: 'Roboto Slab', serif;
+  box-shadow: 0 5px 10px rgba(0,0,0,1);
+  text-decoration: none;
+}
+.w3hubs-footer{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background:#272727;
+  padding: 20px 0px;
+  
+}
+.w3hubs-icon{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.w3hubs-icon ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.w3hubs-icon ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background:#7DCEA0; 
+}
+.w3hubs-icon ul li a{
+  text-decoration: none;
+  color: #272727;
+  font-size: 25px;
+  display: block;
+}
+.w3hubs-icon ul li a i{
+  line-height: 50px;
+}
+.w3hubs-icon ul li:hover{
+  background: #e67e22;
+}
+.w3hubs-icon ul li a:hover >i{
+  transform: scale(1.6) rotate(25deg);
+}
+.w3hubs-nav{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+.w3hubs-nav ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.w3hubs-nav ul li{
+  display: inline-block;
+  margin: 10px 20px;   
+}
+.w3hubs-nav ul li a{
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.w3hubs-nav ul li a:hover{
+  color:  #e67e22;
+}
+
+.w3hubs-nav1{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.w3hubs-nav1 ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.w3hubs-nav1 ul li{
+  display: inline-block;
+  margin: 0px 20px;  
+}
+.w3hubs-nav1 ul li a{
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.w3hubs-nav1 ul li a:hover{
+  color:  #e67e22;
+}
+.w3hubs-nav2{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.w3hubs-nav2 ul{
+  
+  text-align: center;
+}
+
+.w3hubs-nav2 ul li{
+  
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background:#fff; 
+}
+.w3hubs-nav2 ul li a{
+  text-decoration: none;
+  color: #272727;
+  font-size: 25px;
+  display: block;
+}
+.w3hubs-nav2 ul li a i{
+  line-height: 50px;
+}
+.w3hubs-nav2 ul li:hover{
+  background: #e67e22;
+}
+.w3hubs-nav2 ul li a:hover >i{
+  transform: scale(1.6) rotate(180deg);
+}
+.footer-end{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #7DCEA0;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  text-align: center;
+}
+.footer-end p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+.footer-end a{
+
+text-decoration: none;
+color: #fff
+}
+.footer-end a:hover{
+  color:  #e67e22;
+}
+
+@media(max-width:691px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+  font-size: 16px;
+}
+}
+@media(max-width:604px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+  font-size: 14px;
+}
+.w3hubs-nav ul li{
+  padding: 0px ;
+}
+}
+@media(max-width:559px ){
+
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+  font-size: 13px;
+}
+
+}
+@media(max-width:539px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+  font-size: 11px;
+}
+.w3hubs-nav ul li{
+  margin: 5px 20px;
+}
+.w3hubs-nav ul li.p1 {
+    padding-top: 10px;
+}
+}
+@media(max-width:380px ){
+  .w3hubs-nav ul li,.w3hubs-nav1 ul li{
+    display: block;
+    padding: 5px;
+  }
+.w3hubs-nav2 ul li{
+  display: none;
+}
+.w3hubs-icon ul li a i {
+    line-height: 38px;
+}
+.w3hubs-icon ul li a{
+  font-size: 20px;
+}
+.w3hubs-icon ul li{
+width: 40px;
+    height: 40px;
+}
+}
+@media(max-width: 375px){
+  .w3hubs-nav ul li.p1 {
+    padding-top: 0px;
+}
+}

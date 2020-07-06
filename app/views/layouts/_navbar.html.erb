@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="../event.png">
+  </head>
+  <body  style="margin:0 ;padding:0">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">𝕖𝕧𝕖𝕟𝕥𝕚𝕗𝕪</label>
+      <ul>
+        <li>
+          
+          <%= link_to "overview", root_path %><a href="/"></a>
+        </li>
+        <li>
+          <%= link_to "speakers", static_page_speakers_path %><a href="/"></a>
+        </li>
+        <li>
+          <%= link_to "venue", static_page_venue_path %><a href="/"></a>
+        </li>
+        <li >
+          <%= link_to "register" , users_register_path %><a href="/"></a>
+        </li>
+        <li >
+          <%= link_to "Participants" , users_url %><a href="/"></a>
+        </li>
+
+
+
+    
+        
+
+</ul>
+ 
+</nav>
+
+    
+  </body>
+</html>
